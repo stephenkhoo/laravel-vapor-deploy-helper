@@ -1,0 +1,25 @@
+{
+    "name": "stephenkhoo/laravel-vapor-deploy-helper",
+    "description": "Helpers for laravel deployment with vapor",
+    "autoload": {
+        "psr-4": {
+            "Stephenkhoo\\LaravelVaporDeployHelper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Khoo Yong Jun",
+            "email": "programmer.sk95@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+          "providers": [
+                "Stephenkhoo\\LaravelVaporDeployHelper\\LaravelVaporDeployHelperProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    }
+}
